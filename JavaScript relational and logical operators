@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational & Logical Operators</title>
+</head>
+<body>
+
+<h2>JavaScript Relational & Logical Operators</h2>
+
+<script>
+    var a = 20;
+    var b = 10;
+
+    document.write("<h3>Relational Operators</h3>");
+
+    document.write("a = " + a + "<br>");
+    document.write("b = " + b + "<br><br>");
+
+    document.write("a > b : " + (a > b) + "<br>");
+    document.write("a < b : " + (a < b) + "<br>");
+    document.write("a >= b : " + (a >= b) + "<br>");
+    document.write("a <= b : " + (a <= b) + "<br>");
+    document.write("a == b : " + (a == b) + "<br>");
+    document.write("a != b : " + (a != b) + "<br>");
+    document.write("a === b : " + (a === b) + "<br>");
+    document.write("a !== b : " + (a !== b) + "<br>");
+
+    document.write("<hr>");
+
+    document.write("<h3>Logical Operators</h3>");
+
+    var x = 15;
+    var y = 8;
+
+    document.write("x = " + x + "<br>");
+    document.write("y = " + y + "<br><br>");
+
+    document.write("(x > 10 && y < 10) : " + (x > 10 && y < 10) + "<br>");
+    document.write("(x > 20 && y < 10) : " + (x > 20 && y < 10) + "<br>");
+
+    document.write("(x > 20 || y < 10) : " + (x > 20 || y < 10) + "<br>");
+    document.write("(x > 20 || y > 10) : " + (x > 20 || y > 10) + "<br>");
+
+    document.write("!(x > y) : " + !(x > y) + "<br>");
+    document.write("!(x < y) : " + !(x < y) + "<br>");
+</script>
+
+</body>
+</html>
