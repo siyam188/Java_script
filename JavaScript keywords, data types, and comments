@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword, Data Type and Comment</title>
+</head>
+<body>
+
+    <h2>JavaScript Keyword, Data Type and Comment</h2>
+
+    <script>
+        // Single-line comment
+
+        /*
+           Multi-line comment
+           JavaScript Data Types Example
+        */
+
+        // Keywords: let, const
+        let name = "Siyam";          // String
+        let age = 21;                // Number
+        let isStudent = true;        // Boolean
+        let city = null;             // Null
+        let country;                 // Undefined
+
+        const university = "Uttara University";
+
+        // Display Output
+        document.write("Name: " + name + "<br>");
+        document.write("Age: " + age + "<br>");
+        document.write("Student: " + isStudent + "<br>");
+        document.write("City: " + city + "<br>");
+        document.write("Country: " + country + "<br>");
+        document.write("University: " + university + "<br>");
+    </script>
+
+</body>
+</html>
