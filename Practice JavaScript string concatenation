@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concatenate strings</title>
+</head>
+<body>
+    <script>
+        // document.write("Siyam " + " mia")
+        var firstName ="siyam";
+        var lastName ="mia";
+        var fullName = firstName + lastName;
+        document.write("My name is : "+fullName)
+    </script>
+</body>
+</html>
