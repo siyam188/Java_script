@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variables using var</title>
+</head>
+<body>
+
+    <h2>JavaScript Variables (var)</h2>
+
+    <script>
+        // Variable declaration using var
+        var name = "Siyam Mia";
+        var age = 21;
+        var university = "Uttara University";
+        var cgpa = 3.85;
+        var isStudent = true;
+
+        // Display output
+        document.write("Name: " + name + "<br>");
+        document.write("Age: " + age + "<br>");
+        document.write("University: " + university + "<br>");
+        document.write("CGPA: " + cgpa + "<br>");
+        document.write("Student: " + isStudent + "<br><br>");
+
+        // Update variable value
+        name = "Walid";
+        age = 22;
+
+        document.write("<b>After Updating Variables:</b><br>");
+        document.write("Name: " + name + "<br>");
+        document.write("Age: " + age);
+    </script>
+
+</body>
+</html>
