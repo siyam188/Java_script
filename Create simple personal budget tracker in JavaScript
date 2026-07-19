@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal budget</title>
+</head>
+<body>
+    <script>
+    //  console.log("personal budget tracker app");
+    //  console.log("siyam mia");
+    //  console.log(3750.25);
+    //  console.log(2580.2);
+
+      const userName="siyam mia";
+       const income=3450.56;
+       const expense=2456.90;
+       
+    console.log("personal budget tracker app");
+     console.log("UserName:"+userName +"<br>");
+     console.log("Income:"+income +"<br>");
+     console.log("Expense:"+expense+"<br>");
+
+    </script>
+</body>
+</html>
