@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic & Assignment Operators</title>
+</head>
+<body>
+
+<h2>JavaScript Arithmetic & Assignment Operators</h2>
+
+<script>
+    var a = 20;
+    var b = 10;
+
+    document.write("<h3>Arithmetic Operators</h3>");
+
+    document.write("a = " + a + "<br>");
+    document.write("b = " + b + "<br><br>");
+
+    document.write("Addition (+): " + (a + b) + "<br>");
+    document.write("Subtraction (-): " + (a - b) + "<br>");
+    document.write("Multiplication (*): " + (a * b) + "<br>");
+    document.write("Division (/): " + (a / b) + "<br>");
+    document.write("Modulus (%): " + (a % b) + "<br>");
+    document.write("Exponent (**): " + (a ** 2) + "<br><br>");
+
+    document.write("<h3>Assignment Operators</h3>");
+
+    var x = 10;
+
+    document.write("Initial Value: " + x + "<br>");
+
+    x += 5;
+    document.write("After x += 5 : " + x + "<br>");
+
+    x -= 3;
+    document.write("After x -= 3 : " + x + "<br>");
+
+    x *= 2;
+    document.write("After x *= 2 : " + x + "<br>");
+
+    x /= 4;
+    document.write("After x /= 4 : " + x + "<br>");
+
+    x %= 3;
+    document.write("After x %= 3 : " + x + "<br>");
+</script>
+
+</body>
+</html>
