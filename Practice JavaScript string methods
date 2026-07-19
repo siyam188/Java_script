@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Library Functions</title>
+</head>
+<body>
+
+    <h2>JavaScript String Methods</h2>
+
+    <script>
+        var text = "Bangladesh";
+        var text2 = " is a beautiful country";
+
+        // Length
+        document.write("<b>Length:</b> " + text.length + "<br><br>");
+
+        // charAt()
+        document.write("<b>Character at index 2:</b> " + text.charAt(2) + "<br><br>");
+
+        // toUpperCase()
+        document.write("<b>Uppercase:</b> " + text.toUpperCase() + "<br><br>");
+
+        // toLowerCase()
+        document.write("<b>Lowercase:</b> " + text.toLowerCase() + "<br><br>");
+
+        // concat()
+        document.write("<b>Concatenation:</b> " + text.concat(text2) + "<br><br>");
+
+        // slice()
+        document.write("<b>Slice (0,4):</b> " + text.slice(0, 4) + "<br><br>");
+
+        // startsWith()
+        document.write("<b>Starts with 'Bang':</b> " + text.startsWith("Bang") + "<br><br>");
+
+        // endsWith()
+        document.write("<b>Ends with 'desh':</b> " + text.endsWith("desh") + "<br><br>");
+
+        // includes()
+        document.write("<b>Includes 'land':</b> " + text.includes("land") + "<br><br>");
+
+        // replace()
+        document.write("<b>Replace:</b> " + text.replace("Bang", "New") + "<br><br>");
+
+        // indexOf()
+        document.write("<b>Index of 'g':</b> " + text.indexOf("g") + "<br><br>");
+
+        // Prompt Example
+        var name = prompt("Enter your name:");
+
+        document.write("<b>Welcome:</b> " + name);
+    </script>
+
+</body>
+</html>
