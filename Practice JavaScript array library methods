@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Library Methods</title>
+</head>
+<body>
+
+<script>
+    // Create an array
+    var names = ["Anis", "Siyam", "Walid", "Rezve"];
+
+    document.write("<h2>Original Array</h2>");
+    document.write(names + "<br><br>");
+
+    // Add element at the end
+    names.push("Shakib");
+    document.write("<b>After push():</b> " + names + "<br><br>");
+
+    // Remove last element
+    names.pop();
+    document.write("<b>After pop():</b> " + names + "<br><br>");
+
+    // Remove first element
+    names.shift();
+    document.write("<b>After shift():</b> " + names + "<br><br>");
+
+    // Add element at the beginning
+    names.unshift("Sayem");
+    document.write("<b>After unshift():</b> " + names + "<br><br>");
+
+    // Add elements using splice
+    names.splice(2, 0, "Rakib", "Tamim");
+    document.write("<b>After splice() Insert:</b> " + names + "<br><br>");
+
+    // Remove elements using splice
+    names.splice(1, 2);
+    document.write("<b>After splice() Remove:</b> " + names + "<br><br>");
+
+    // Slice array
+    var newArray = names.slice(1, 3);
+    document.write("<b>After slice():</b> " + newArray + "<br><br>");
+
+    // Sort array
+    names.sort();
+    document.write("<b>Sorted Array:</b> " + names + "<br><br>");
+
+    // Reverse array
+    names.reverse();
+    document.write("<b>Reverse Array:</b> " + names + "<br><br>");
+
+    // Numeric array sorting
+    var numbers = [10, 20, 60, 4, 90, 50];
+
+    numbers.sort(function(a, b) {
+        return a - b;
+    });
+
+    document.write("<b>Ascending Order:</b> " + numbers + "<br><br>");
+
+    numbers.sort(function(a, b) {
+        return b - a;
+    });
+
+    document.write("<b>Descending Order:</b> " + numbers);
+
+</script>
+
+</body>
+</html>
