@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Use Array</title>
+</head>
+<body>
+
+<script>
+    // Create Array
+    var names = new Array(5);
+
+    names[0] = "Siyam";
+    names[1] = "Walid";
+    names[2] = "Rezve";
+    names[3] = "Shakib";
+    names[4] = "Sayem";
+
+    // Print Array Elements
+    console.log(names[0]);
+    console.log(names[1]);
+    console.log(names[2]);
+    console.log(names[3]);
+    console.log(names[4]);
+
+    // Print Full Array
+    console.log(names);
+
+    // Add New Element
+    names.push("Rakib");
+    console.log("After Push:", names);
+
+    // Remove Last Element
+    names.pop();
+    console.log("After Pop:", names);
+
+    // Concatenate Arrays
+    var n1 = ["A", "B"];
+    var n2 = ["C", "D"];
+
+    var x = n1.concat(n2);
+
+    console.log("Concatenated Array:", x);
+
+</script>
+
+</body>
+</html>
