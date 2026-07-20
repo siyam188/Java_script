@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd</title>
+</head>
+<body>
+
+<script>
+    function checkEvenOdd(num) {
+        if (num % 2 == 0)
+            return "Even";
+        else
+            return "Odd";
+    }
+
+    var number = parseInt(prompt("Enter a number:"));
+
+    document.write(number + " is " + checkEvenOdd(number));
+</script>
+
+</body>
+</html>
