@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Constructor</title>
+</head>
+<body>
+
+<script>
+function Employee(name, department, salary) {
+    this.name = name;
+    this.department = department;
+    this.salary = salary;
+
+    this.showInfo = function () {
+        document.write("Name: " + this.name + "<br>");
+        document.write("Department: " + this.department + "<br>");
+        document.write("Salary: $" + this.salary + "<br><br>");
+    };
+}
+
+var emp1 = new Employee("Siyam", "IT", 50000);
+var emp2 = new Employee("Walid", "HR", 45000);
+
+emp1.showInfo();
+emp2.showInfo();
+</script>
+
+</body>
+</html>
