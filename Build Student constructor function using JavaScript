@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor Function</title>
+</head>
+<body>
+
+<script>
+
+    // Constructor Function
+    function Student(name, age, cgpa, lang) {
+        this.name = name;
+        this.age = age;
+        this.cgpa = cgpa;
+        this.lang = lang;
+
+        // Method
+        this.display = function () {
+            document.write("<h3>Student Information</h3>");
+            document.write("Name: " + this.name + "<br>");
+            document.write("Age: " + this.age + "<br>");
+            document.write("CGPA: " + this.cgpa + "<br>");
+            document.write("Languages: " + this.lang.join(", ") + "<br><br>");
+        };
+    }
+
+    // Create Objects
+    var student1 = new Student(
+        "Siyam",
+        23,
+        3.89,
+        ["Bengali", "Hindi", "English"]
+    );
+
+    var student2 = new Student(
+        "Walid",
+        22,
+        3.75,
+        ["Bengali", "English"]
+    );
+
+    // Display Information
+    student1.display();
+    student2.display();
+
+</script>
+
+</body>
+</html>
