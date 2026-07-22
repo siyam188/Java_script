@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Object and Methods</title>
+</head>
+<body>
+
+<script>
+    // Create Date Object
+    var today = new Date();
+
+    document.write("<h2>JavaScript Date Object</h2>");
+
+    document.write("Current Date & Time: " + today + "<br><br>");
+
+    document.write("Year: " + today.getFullYear() + "<br>");
+    document.write("Month: " + (today.getMonth() + 1) + "<br>");
+    document.write("Date: " + today.getDate() + "<br>");
+    document.write("Day: " + today.getDay() + "<br>");
+    document.write("Hours: " + today.getHours() + "<br>");
+    document.write("Minutes: " + today.getMinutes() + "<br>");
+    document.write("Seconds: " + today.getSeconds() + "<br>");
+    document.write("Milliseconds: " + today.getMilliseconds() + "<br><br>");
+
+    // Change Date
+    today.setFullYear(2026);
+    today.setMonth(11);   // December (0 = January)
+    today.setDate(25);
+
+    document.write("<h3>Updated Date</h3>");
+    document.write(today);
+</script>
+
+</body>
+</html>
