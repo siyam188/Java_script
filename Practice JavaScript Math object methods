@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object</title>
+</head>
+<body>
+
+<script>
+    document.write("Square Root of 25: " + Math.sqrt(25) + "<br><br>");
+
+    document.write("Sign of 2: " + Math.sign(2) + "<br>");
+    document.write("Sign of -5: " + Math.sign(-5) + "<br>");
+    document.write("Sign of 0: " + Math.sign(0) + "<br><br>");
+
+    document.write("2<sup>4</sup> = " + Math.pow(2, 4) + "<br><br>");
+
+    document.write("Absolute Value of -10: " + Math.abs(-10) + "<br>");
+    document.write("Round 4.6: " + Math.round(4.6) + "<br>");
+    document.write("Ceil 4.2: " + Math.ceil(4.2) + "<br>");
+    document.write("Floor 4.8: " + Math.floor(4.8) + "<br>");
+    document.write("Random Number: " + Math.random());
+</script>
+
+</body>
+</html>
