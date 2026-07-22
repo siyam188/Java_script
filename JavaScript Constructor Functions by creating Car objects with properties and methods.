@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Constructor</title>
+</head>
+<body>
+
+<script>
+function Car(brand, model, year) {
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
+
+    this.display = function () {
+        document.write("<h3>Car Information</h3>");
+        document.write("Brand: " + this.brand + "<br>");
+        document.write("Model: " + this.model + "<br>");
+        document.write("Year: " + this.year + "<br><br>");
+    };
+}
+
+var car1 = new Car("Toyota", "Corolla", 2022);
+var car2 = new Car("Honda", "Civic", 2023);
+
+car1.display();
+car2.display();
+</script>
+
+</body>
+</html>
